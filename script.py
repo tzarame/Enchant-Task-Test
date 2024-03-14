@@ -3,7 +3,6 @@ from fastapi.responses import HTMLResponse
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import OperationalError
 from jinja2 import Template
-
 app = FastAPI()
 
 db_url = "postgresql://postgres:postgres@db:5432/postgres"
@@ -32,6 +31,7 @@ def read_db_status():
             <p>Version: {{ version }}</p>
             <p>User: {{ user }}</p>
             <p>Database: {{ database }}</p>
+            <p>upd upd upd </p>
         </body>
     </html>
     """)

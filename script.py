@@ -1,8 +1,10 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
+from starlette.responses import FileResponse  # Add this line
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import OperationalError
 from jinja2 import Template
+
 app = FastAPI()
 
 db_url = "postgresql://postgres:postgres@db:5432/postgres"

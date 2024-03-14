@@ -33,7 +33,7 @@ def read_db_status():
             <p>Version: {{ version }}</p>
             <p>User: {{ user }}</p>
             <p>Database: {{ database }}</p>
-            <p>upd upd upd ТУЦ ТУЦ ТУЦ</p>
+            <p>upd upd upd ТУЦ ТУЦ ТУЦ пыщь пыщь</p>
         </body>
     </html>
     """)

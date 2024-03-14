@@ -5,7 +5,7 @@ from sqlalchemy.exc import OperationalError
 
 app = FastAPI()
 
-db_url = "postgresql://postgres:postgres@db:5433/postgres"
+db_url = "postgresql://postgres:postgres@db:5432/postgres"
 
 try:
     engine = create_engine(db_url)

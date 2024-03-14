@@ -3,3 +3,4 @@ pydantic==2.6.3
 sqlalchemy==2.0.28
 uvicorn==0.28.0
 psycopg2==2.9.9
+Jinja2==3.1.3
